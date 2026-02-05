@@ -1,10 +1,17 @@
-This code is a password strength tester that analyzes a given password based on various criteria. It checks for the presence of different character types (digits, lowercase letters, uppercase letters, special characters), calculates the uniform entropy of the password, rates its strength, estimates the time it would take to crack the password using brute-force methods, and provides suggestions for improving the password strength.
-###Password Strength Tester    
- A password strength tester that:
- - checks for the presence of digits, lowercase, uppercase, and special characters
- - calculates the entropy of the password
- - provides a strength rating based on the checks
- - calculate the uniform entropy of the password
- - give suggestions for improving the password strength
- - measure the time it would take to crack the password using brute-force methods
- 
+Password Strength Tester
+
+A Python-based password strength analyzer that evaluates the security of a given password based on multiple criteria. This tool helps users understand how strong their passwords are, calculates their entropy, and provides actionable suggestions to improve password security.
+
+Features
+
+This tool performs the following checks and calculations:
+
+✅ Detects the presence of digits, lowercase letters, uppercase letters, and special characters
+
+✅ Calculates the uniform entropy of the password
+
+✅ Provides a strength rating (Very Weak, Weak, Reasonable, Strong, Very Strong)
+
+✅ Estimates the time required to crack the password using brute-force attacks (online and offline scenarios)
+
+✅ Offers practical suggestions to improve password strength
